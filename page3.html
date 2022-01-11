@@ -18,7 +18,7 @@
             <ul>
                 <li><a href="./index.html">Home</a></li>
                 <li><a href="./page2.html">About</a></li>
-                <li>Gallery</li>
+                <li><a href="/">Gallery</a></li>
                 <li><a href="./page3.html">Contact</a></li>
             </ul>
         </nav>
@@ -28,69 +28,30 @@
         <main>
             <h1>My Third Heading</h1>
             <p>My Third paragraph</p>
-            <img src="./images/central_park.jpg" alt="Central Parl" width="500">
-
-            <table border="1">
-                <caption>Calories Comparison of Popular Burgers</caption>
-                <thead>
-                    <tr>
-                        <th>Type</th>
-                        <th>Big Mac</th>
-                        <th>Whopper</th>
-                        <th>Dave's Double</th>
-                        <th>Whataburger</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Calories</td>
-                        <td>563</td>
-                        <td>677</td>
-                        <td>870</td>
-                        <td>590</td>
-                    </tr>
-                    <tr>
-                        <td>Fat</td>
-                        <td>30mg</td>
-                        <td>40mg</td>
-                        <td>51mg</td>
-                        <td>25mg</td>
-                    </tr>
-                </tbody>
-                <tfoot>
-                    <tr>
-                        <td>Vendor</td>
-                        <td>MacD</td>
-                        <td>Burger King</td>
-                        <td>Wendys</td>
-                        <td>Whataburger</td>
-                    </tr>
-                </tfoot>
-            </table>
 
             <form action="/signup" method="post">
                 <fieldset>
-                    <legend>User Personal Information</legend><br>
+                    <legend>User Personal Information</legend>
                     <label for="name">Enter your full name</label>
-                    <input type="text" name="name" id="name"><br>
-                    <label for="email">Enter your email</label><br>
-                    <input type="email" name="email" id="email"><br>
-                    <label for="phone">Enter your phone</label><br>
-                    <input type="text" name="phone" id="phone"><br>
-                    <br>
-                    <label for="gender">Select your gender</label><br>
+                    <input type="text" name="name" id="name">
+                    <label for="email">Enter your email</label>
+                    <input type="email" name="email" id="email">
+                    <label for="phone">Enter your phone</label>
+                    <input type="text" name="phone" id="phone">
+                    
+                    <label for="gender">Select your gender</label>
                     <input type="radio" name="gender" id="gender" value="male">Male
                     <input type="radio" name="gender" id="gender" value="female">Female
-                    <br><br>
-                    <label for="contact">How Should we contact you?</label><br>
+                    
+                    <label for="contact">How Should we contact you?</label>
                     <select name="contact" id="contact">
                         <option value="email">Email</option>
                         <option value="phone">Phone</option>
                     </select>
-                    <br><br>
-                    <label for="reason">Tell us the reason of your visit today:</label><br>
+                    
+                    <label for="reason">Tell us the reason of your visit today:</label>
                     <textarea name="reason" id="reason" cols="30" rows=5"></textarea>
-                    <br>
+                    
                     <input type="submit" value="sign-up">
                 </fieldset>
             </form>
